@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SurveyConsole", "SurveyConsole\SurveyConsole.csproj", "{FBECB054-F3BB-4BDD-86FC-580ECE10E8DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2C77357-56F0-4ADF-A571-51101D5BC116}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		nuget.config = nuget.config
+		PowerFxVersion.props = PowerFxVersion.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurveyEngine", "SurveyEngine\SurveyEngine.csproj", "{6E191CFB-D409-46A6-9453-F5E9DC7009FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBECB054-F3BB-4BDD-86FC-580ECE10E8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBECB054-F3BB-4BDD-86FC-580ECE10E8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBECB054-F3BB-4BDD-86FC-580ECE10E8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBECB054-F3BB-4BDD-86FC-580ECE10E8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E191CFB-D409-46A6-9453-F5E9DC7009FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E191CFB-D409-46A6-9453-F5E9DC7009FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E191CFB-D409-46A6-9453-F5E9DC7009FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E191CFB-D409-46A6-9453-F5E9DC7009FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47104D86-B01F-4064-9F02-A3CFA0E92CCB}
+	EndGlobalSection
+EndGlobal

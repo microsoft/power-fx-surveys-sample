@@ -1,0 +1,33 @@
+Questions:
+
+- Title: =$"Can you volunteer for next 2 weeks? 
+    (through {Text(DateAdd(Now(), 7*2), DateTimeFormat.LongDate)})"
+  ApiName: CanVolunteer
+  Answers: 
+    - Text: ="Yes"
+    - Text: | 
+        ="Only for 1 week, through " & 
+        Text(DateAdd(Now(), 7), DateTimeFormat.LongDate)
+    - Text: ="No"
+
+# If they can't volunteer, ask if they can donate instead.
+- Title: =$"Can you make a donation?"
+  ApiName: CanDonate
+  IsHidden: = (CanVolunteer <> "No")
+  Answers:
+     - Text: 0
+     - Text: 100
+     - Text: 500
+
+# Only contact if they're engaging as volunteer or donor.
+- Title: =$"{User.FullName}, how would you like to be contacted?"
+  IsHidden: = And(CanVolunteer = "No", Value(CanDonate) = 0)
+  ApiName: ContactKind
+  Answers:  
+  - Text: =$"Email me at {User.Email}"
+  - Text: Phone the number on file
+  - Text: Do not contact
+
+OnComplete:  |
+   ="Thank you"
+

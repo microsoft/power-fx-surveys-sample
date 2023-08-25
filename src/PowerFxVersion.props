@@ -1,0 +1,19 @@
+﻿<!--
+    Power Fx feed is: 
+      <add key="Power-Fx" value="https://msazure.pkgs.visualstudio.com/_packaging/Power-Fx/nuget/v3/index.json" />
+-->
+<Project>
+    <PropertyGroup>
+		<PowerFxDataverseVersion>[0.2.7-preview.20230811-1001]</PowerFxDataverseVersion>
+
+		<!-- And then set this to it's Microsoft.PowerFx.Core dependnecy -->
+		<PowerFxVersion>[0.2.7-preview.20230811-1003]</PowerFxVersion>
+    </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.PowerFx.Core" Version="$(PowerFxVersion)" />
+		<PackageReference Include="Microsoft.PowerFx.Interpreter" Version="$(PowerFxVersion)" />
+		<PackageReference Include="Microsoft.PowerFx.Connectors" Version="$(PowerFxVersion)" />
+	</ItemGroup>
+	
+</Project>
