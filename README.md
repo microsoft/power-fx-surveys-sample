@@ -1,14 +1,17 @@
 # Project
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This is a sample Survey application demonstrating how to integrate Power Fx low code expressions. 
 
-As the maintainer of this project, please make a few updates:
+Surveys are described in Yaml files and can include embedded Power Fx expressions to provide
+dynamic functionality like:
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+- dynamic text for questions and ansers 
+- skipping questions based on previous answers
+- running a hook on survey complete. 
+
+For more information on Power Fx, see https://github.com/microsoft/Power-Fx
+
+
 
 ## Contributing
 

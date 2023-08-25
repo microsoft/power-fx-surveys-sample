@@ -1,4 +1,7 @@
-﻿namespace SurveyEngine
+﻿// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT license.
+
+namespace SurveyEngine
 {
     // Interface for single instance of survey.
     public interface IRunner

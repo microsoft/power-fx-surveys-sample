@@ -1,15 +1,9 @@
-﻿using Microsoft.PowerFx;
+﻿// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT license.
+
+using Microsoft.PowerFx;
 using Microsoft.PowerFx.Syntax;
-using Microsoft.PowerFx.Types;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.Tracing;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Threading.Tasks.Sources;
-using YamlDotNet.Serialization;
 
 namespace SurveyEngine.Parse
 {
