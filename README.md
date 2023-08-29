@@ -12,7 +12,6 @@ dynamic functionality like:
 For more information on Power Fx, see https://github.com/microsoft/Power-Fx
 
 
-
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
