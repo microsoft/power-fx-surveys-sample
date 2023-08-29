@@ -1,5 +1,7 @@
 # Project
 
+[![.NET](https://github.com/microsoft/power-fx-surveys-sample/actions/workflows/dotnet.yml/badge.svg)](https://github.com/microsoft/power-fx-surveys-sample/actions/workflows/dotnet.yml)
+
 This is a sample Survey application demonstrating how to integrate Power Fx low code expressions. 
 
 Surveys are described in Yaml files and can include embedded Power Fx expressions to provide
