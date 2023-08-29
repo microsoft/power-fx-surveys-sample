@@ -4,10 +4,9 @@
 -->
 <Project>
     <PropertyGroup>
-		<PowerFxDataverseVersion>[0.2.7-preview.20230811-1001]</PowerFxDataverseVersion>
 
 		<!-- And then set this to it's Microsoft.PowerFx.Core dependnecy -->
-		<PowerFxVersion>[0.2.7-preview.20230811-1003]</PowerFxVersion>
+		<PowerFxVersion>[0.2.8]</PowerFxVersion>
     </PropertyGroup>
 
 	<ItemGroup>
